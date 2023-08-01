@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Thingiverse Download All",
+    "description": "A Chrome extension that downloads all the files on a Thingiverse thing's file page when you click the icon!",
+    "version": "0.0.1",
+    "action": {},
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "96": "icons/icon96.png",
+        "192": "icons/icon192.png"
+    }
+}

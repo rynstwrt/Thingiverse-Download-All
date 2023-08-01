@@ -1,0 +1,1 @@
+document.querySelectorAll(".ThingFile__fileRow--uL2ZW > * button").forEach(button => button.click());
